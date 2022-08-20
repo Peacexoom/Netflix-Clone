@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: default;
+}
+
+.container{
+    width: 850px;
+    background-color: #181818;
+}
+
+.not-main-image {
+    padding: 0px 30px;
+}
+
+/* div.image{
+    background: linear-gradient(0deg,#181818,transparent 50%);
+    width: 55%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+} */
+
+img.main-image {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    /* z-index: 0; */
+}
+
+div.buttons{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+div.buttons img{
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+}
+
+/* .plus-icon{
+    color: white;
+    font-size: 10px;
+} */
+
+.series-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.series-info-header {
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.match {
+    color: #46d369;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.age-restriction {
+    border: 1px solid hsla(0,0%,100%,.4);
+    padding: 1px 7px;
+    cursor: pointer;
+    margin: 0px 3px;
+}
+
+.summary {
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.cast-genres-showis div{
+    padding-bottom: 10px;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span.about-series{
+    color: #777;
+}
+
+.episodes-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.episode1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em 5.5em 1.7em 2.5em;
+    border-bottom: 1px solid #404040;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.firstepisode{
+    background-color: #333;
+    border-top: 1px solid #404040;
+}
+
+.episode-num {
+    font-size: 24px;
+}
+
+.episode-image {
+    max-width: 9.5em;
+    padding: 0px 15px;
+
+}
+
+.episode-image>img {
+    max-width: 100%;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ep-title-len {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.episode-title{
+    font-weight: 700;
+}
+
+.episode-summary{
+    color: #d2d2d2;
+    padding-right: 2.5em;
+}
+
+.more-series{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.more-series1{
+    background-color: #2f2f2f;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.more-series1 img{
+    width: 100%;
+}
+
+.more-series1 div{
+    padding: 20px;
+}
+
+.series1-summary{
+    margin-bottom: 20px;
+    color: #d2d2d2;
+}
+
+.about{
+    margin-bottom: 40px;
+}
+
+h3.about-title{
+    font-weight: 400;
+}
+
+.about-series div{
+    margin-bottom: 10px;
+}
+
+span.maturity-rating span.age-restriction{
+    margin: 0px 7px;
+}
+
+.maturity-meaning{
+    margin-top: 0px;
+    padding-left: 120px;
+}
